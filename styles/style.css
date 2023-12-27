@@ -1,9 +1,9 @@
 :root {
-  --bg-color: #F3EFEC;
-  --text-color: #312A4E;
-  --accent-color: #FFAB6B;
+  --bg-color: #f3efec;
+  --text-color: #312a4e;
+  --accent-color: #ffab6b;
   --main-font: Raleway, sans-serif;
-  --accent-font: 'STIX Two Text', serif;
+  --accent-font: "STIX Two Text", serif;
 }
 *,
 *::before,
@@ -29,7 +29,8 @@ figure {
   margin: 0;
 }
 
-a:focus, button:focus {
+a:focus,
+button:focus {
   outline: none;
 }
 
@@ -37,13 +38,14 @@ button:disabled {
   pointer-events: none;
 }
 
-a:focus-visible, button:focus-visible {
+a:focus-visible,
+button:focus-visible {
   outline: 1px solid currentColor;
 }
 
 .theme_dark {
   --bg-color: #171717;
-  --text-color: #B3B3B3;
+  --text-color: #b3b3b3;
   --accent-color: transparent;
 }
 
@@ -98,11 +100,9 @@ a:focus-visible, button:focus-visible {
 }
 
 .header__theme-button_type_dark {
-
 }
 
 .header__theme-button_type_light {
-
 }
 
 .header__theme-button_is-active {
@@ -114,7 +114,7 @@ a:focus-visible, button:focus-visible {
   position: absolute;
   left: 0;
   bottom: 3px;
-  height: .3em;
+  height: 0.3em;
   width: 100%;
   background-color: var(--accent-color);
   z-index: -1;
@@ -128,7 +128,6 @@ a:focus-visible, button:focus-visible {
   background-color: var(--bg-color);
   font-family: var(--main-font);
 }
-
 
 .content-section {
   padding: 0 5vi;
@@ -147,7 +146,8 @@ a:focus-visible, button:focus-visible {
   margin-bottom: 1.5em;
 }
 
-.content__text-block_type_first-lettered .content__paragraph:nth-of-type(1)::first-letter {
+.content__text-block_type_first-lettered
+  .content__paragraph:nth-of-type(1)::first-letter {
   display: inline-block;
   background-color: var(--accent-color);
   padding: 0 4px;
@@ -156,7 +156,9 @@ a:focus-visible, button:focus-visible {
   font-weight: 700;
 }
 
-.theme_dark .content__text-block_type_first-lettered .content__paragraph:nth-of-type(1)::first-letter {
+.theme_dark
+  .content__text-block_type_first-lettered
+  .content__paragraph:nth-of-type(1)::first-letter {
   border: 1px solid;
 }
 
@@ -220,7 +222,7 @@ a:focus-visible, button:focus-visible {
   position: absolute;
   left: 0;
   bottom: 10px;
-  height: .3em;
+  height: 0.3em;
   width: 3.6em;
   background-color: var(--accent-color);
   z-index: -1;
