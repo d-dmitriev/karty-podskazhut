@@ -3,7 +3,7 @@
   --text-color: #312a4e;
   --accent-color: #ffab6b;
   --main-font: Raleway, sans-serif;
-  --accent-font: "STIX Two Text", serif;
+  --accent-font: 'STIX Two Text', serif;
 }
 *,
 *::before,
@@ -110,7 +110,7 @@ button:focus-visible {
 }
 
 .header__theme-button_is-active::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 3px;
@@ -218,7 +218,7 @@ button:focus-visible {
 }
 
 .colored-text::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 10px;
@@ -246,7 +246,7 @@ button:focus-visible {
   position: absolute;
   inset-inline-start: 15px;
   display: inline-block;
-  content: "";
+  content: '';
   width: 15px;
   height: 15px;
   background-image: url(../images/marker-light.svg);
