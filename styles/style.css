@@ -182,6 +182,7 @@ button:focus-visible {
 
 .content__picture {
   margin-inline-start: -5vi;
+  margin-block-start: 3px;
   width: calc(100% + 10vi);
 }
 
@@ -233,9 +234,14 @@ button:focus-visible {
 }
 
 .content__list {
-  position: relative;
   list-style: none;
   padding-inline-start: 40px;
+}
+
+.content__list li {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .content__list li:not(:last-child) {
@@ -244,7 +250,7 @@ button:focus-visible {
 
 .content__list li::before {
   position: absolute;
-  inset-inline-start: 15px;
+  inset-inline-start: -25px;
   display: inline-block;
   content: '';
   width: 15px;
