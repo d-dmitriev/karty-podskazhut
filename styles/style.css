@@ -15,6 +15,9 @@
   min-inline-size: 360px;
   margin: 0;
   color: var(--text-color);
+  background-color: var(--bg-color);
+  font-family: var(--main-font);
+  font-size: 18px;
 }
 
 p,
@@ -89,7 +92,7 @@ button:focus-visible {
   background-color: transparent;
   border: none;
   font-family: inherit;
-  font-size: 18px;
+  font-size: inherit;
   color: currentColor;
   padding: 0;
   cursor: pointer;
@@ -124,11 +127,6 @@ button:focus-visible {
   background-image: url(../images/pattern.svg);
 }
 
-.page {
-  background-color: var(--bg-color);
-  font-family: var(--main-font);
-}
-
 .content-section {
   padding: 0 5vi;
 }
@@ -136,10 +134,6 @@ button:focus-visible {
 .content__title {
   font-size: 30px;
   margin: 7% 0 2.5%;
-}
-
-.content__text-block {
-  font-size: 18px;
 }
 
 .content__text-block .content__paragraph:not(:last-child) {
@@ -187,7 +181,6 @@ button:focus-visible {
 }
 
 .content__picture-caption {
-  font-size: 18px;
   text-align: center;
   padding: 20px 0;
   border-block-end: 1px solid;
@@ -208,10 +201,6 @@ button:focus-visible {
 
 .content__card-title {
   font-size: 60px;
-}
-
-.content__card-subtitle {
-  font-size: 18px;
 }
 
 .colored-text {
@@ -272,6 +261,5 @@ button:focus-visible {
 }
 
 .footer__copyright {
-  font-size: 18px;
   text-align: center;
 }
